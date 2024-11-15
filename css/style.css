@@ -10,7 +10,6 @@
 
 /* Importujemy komponenty */
 @import 'components/navbar.css';
-@import 'components/slider.css';
 @import 'components/footer.css';
 
 /* Importujemy media queries */

@@ -1,10 +1,10 @@
 /* Kolory */
 :root {
-  --main-bg-color: #206ec0;       /* Główny kolor tła - ciemnoniebieski (dopasowany do logo) */
-  --main-text-color: #ffffff;     /* Biały tekst, aby kontrastował z niebieskim tłem */
-  --accent-color: #0059b3;        /* Jaśniejszy niebieski akcent */
-  --secondary-bg-color: #e6f0ff;  /* Bardzo jasny niebieski do delikatnego tła */
-  --section-font-colot: #415a79;  /* Bardzo jasny niebieski do delikatnego tła */
+  --main-bg-color: #206ec0;
+  --main-text-color: #ffffff;
+  --accent-color: #0059b3;
+  --secondary-bg-color: #e6f0ff;
+  --section-font-colot: #415a79;
 }
 
 /* Inne zmienne */
