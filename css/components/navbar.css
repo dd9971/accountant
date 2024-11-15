@@ -1,0 +1,97 @@
+/* Stylizacja dla hamburger menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  height: 40px; /* Increase height of hamburger menu */
+}
+
+.menu-toggle .bar {
+  width: 30px; /* Increase width of bar */
+  height: 3px;
+  background-color: white;
+  margin: 6px 0; /* Increase spacing between bars */
+  transition: 0.4s;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500; /* Lżejszy styl czcionki */
+  transition: all 0.3s ease; /* Płynna animacja przy najechaniu */
+}
+
+.nav-links a:hover {
+  color: #f0c330; /* Podświetlenie linku w złotym kolorze */
+}
+
+header {
+  position: fixed; /* Przyklejenie nagłówka do góry strony */
+  width: 100%;
+  background: rgba(0, 51, 102, 0.8); /* Lekko przeźroczyste tło */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Cień pod nagłówkiem dla efektu "unoszenia" */
+  z-index: 1000; /* Ustawienie priorytetu warstwy */
+}
+
+.logo img {
+  height: 60px;
+  transition: box-shadow 0.3s ease;
+}
+
+.logo img:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Efekt świetlny wokół logo */
+}
+
+/* Stylizacja dla urządzeń mobilnych */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background: rgba(0, 51, 102, 0.9); /* Lekko przyciemnione tło dla menu mobilnego */
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    display: none;
+    padding: 1em 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+  }
+}

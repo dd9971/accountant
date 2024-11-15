@@ -1,0 +1,18 @@
+header {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Rozdziel elementy nawigacyjne */
+  align-items: center;
+  padding: var(--padding);
+  width: 100%; /* Ustaw pełną szerokość */
+  max-width: 1200px; /* Dodaj maksymalną szerokość dla lepszego efektu wizualnego */
+  margin: 0 auto; /* Wyrównaj na środku ekranu */
+}
+
+.logo img {
+  height: 50px;
+}

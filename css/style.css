@@ -1,0 +1,35 @@
+
+
+/* Importujemy zmienne i mixiny */
+@import 'utils/variables.css';
+
+/* Importujemy layouty */
+@import 'layout/header.css';
+@import 'layout/main.css';
+@import 'layout/sections.css';
+
+/* Importujemy komponenty */
+@import 'components/navbar.css';
+@import 'components/slider.css';
+@import 'components/footer.css';
+
+/* Importujemy media queries */
+@import 'utils/media-queries.css';
+
+body, html {
+  overflow-x: hidden; /* Ukrywa poziomy pasek przewijania */
+  max-width: 100vw; /* Maksymalna szerokość to 100% szerokości widoku przeglądarki */
+  background-color: var(--main-bg-color); /* Background color for entire page */
+
+}
+
+/* Resetowanie marginesów i wypełnień */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+

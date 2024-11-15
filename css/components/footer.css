@@ -1,0 +1,10 @@
+footer {
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 1em 0;
+  position: relative; /* or absolute */
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 51, 102, 0.8); /* Lekko przeźroczyste tło */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Cień pod nagłówkiem dla efektu "unoszenia" */
+}

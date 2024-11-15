@@ -1,0 +1,95 @@
+.content-section {
+  padding: 5em 1em;
+  /*background: var(--secondary-bg-color);*/
+  background: rgba(230, 240, 255, 0.9);
+  text-align: center;
+  margin: 6em 0; /* Większy margines dla stworzenia przestrzeni między sekcjami */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcjonalnie: dodaj cień dla lepszej widoczności */
+  border-radius: 10px; /* Opcjonalnie: dodaj zaokrąglone rogi dla lepszej widoczności */
+  scroll-margin-top: 200px;
+}
+
+.content-section ul {
+  list-style: disc;
+  padding-left: 2em; /* Dodaje odstęp po lewej stronie, aby punkty nie były zbyt blisko marginesu */
+  line-height: 1.3; /* Zwiększa odstępy między liniami, co zwiększa czytelność */
+}
+
+.content-section li {
+  margin-bottom: 0.5em; /* Dodaje odstęp między elementami listy */
+}
+
+/*welcome section*/
+.welcome-section {
+  font-family: 'Poppins', sans-serif; /* Nowoczesny i czytelny font */
+  text-align: justify; /* Wyrównanie tekstu dla lepszej czytelności */
+  color: var(--section-font-colot);
+}
+.welcome-section p {
+  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
+  margin: 0 auto; /* Wyrównanie do środka */
+}
+.welcome-section h1 {
+  font-weight: 600; /* Zwiększenie grubości czcionki dla nagłówka */
+  text-align: center;
+}
+.welcome-section h3 {
+  font-weight: 600; /* Zwiększenie grubości czcionki dla nagłówka */
+  text-align: center;
+}
+
+/*about us section*/
+.about-us-section {
+  font-family: 'Poppins', sans-serif; /* Nowoczesny i czytelny font */
+  text-align: justify; /* Wyrównanie tekstu dla lepszej czytelności */
+  color: var(--section-font-colot);
+}
+.about-us-section p {
+  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
+  margin: 0 auto; /* Wyrównanie do środka */
+}
+.about-us-section h1 {
+  font-weight: 600; /* Zwiększenie grubości czcionki dla nagłówka */
+  text-align: center;
+}
+
+
+/*team section*/
+.team-section {
+  font-family: 'Poppins', sans-serif; /* Nowoczesny i czytelny font */
+  text-align: justify; /* Wyrównanie tekstu dla lepszej czytelności */
+  color: var(--section-font-colot);
+}
+.team-section p {
+  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
+  margin: 0 auto; /* Wyrównanie do środka */
+}
+.team-section h1 {
+  font-weight: 600; /* Zwiększenie grubości czcionki dla nagłówka */
+  text-align: center;
+}
+
+/*offer section*/
+.offer-section {
+  font-family: 'Poppins', sans-serif; /* Nowoczesny i czytelny font */
+  text-align: justify; /* Wyrównanie tekstu dla lepszej czytelności */
+  color: var(--section-font-colot);
+}
+.offer-section p {
+  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
+  margin: 0 auto; /* Wyrównanie do środka */
+}
+.offer-section h1 {
+  font-weight: 600; /* Zwiększenie grubości czcionki dla nagłówka */
+  text-align: center;
+}
+
+
