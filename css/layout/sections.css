@@ -1,7 +1,6 @@
 .content-section {
   padding: 5em 1em;
-  /*background: var(--secondary-bg-color);*/
-  background: rgba(230, 240, 255, 0.9);
+  background: rgba(230, 240, 255, 0.6);
   text-align: center;
   margin: 6em 0; /* Większy margines dla stworzenia przestrzeni między sekcjami */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcjonalnie: dodaj cień dla lepszej widoczności */
@@ -26,9 +25,8 @@
   color: var(--section-font-colot);
 }
 .welcome-section p {
-  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
-  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
-  max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
+  line-height: 1.2; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.1em; /* Zwiększenie rozmiaru czcionki */
   margin: 0 auto; /* Wyrównanie do środka */
 }
 .welcome-section h1 {
@@ -47,8 +45,8 @@
   color: var(--section-font-colot);
 }
 .about-us-section p {
-  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
-  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  line-height: 1.2; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.1em; /* Zwiększenie rozmiaru czcionki */
   max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
   margin: 0 auto; /* Wyrównanie do środka */
 }
@@ -65,8 +63,8 @@
   color: var(--section-font-colot);
 }
 .team-section p {
-  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
-  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  line-height: 1.2; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.1em; /* Zwiększenie rozmiaru czcionki */
   max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
   margin: 0 auto; /* Wyrównanie do środka */
 }
@@ -82,8 +80,8 @@
   color: var(--section-font-colot);
 }
 .offer-section p {
-  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
-  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  line-height: 1.2; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.1em; /* Zwiększenie rozmiaru czcionki */
   max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
   margin: 0 auto; /* Wyrównanie do środka */
 }
@@ -99,8 +97,8 @@
   color: var(--section-font-colot);
 }
 .pricing-section p {
-  line-height: 1.6; /* Zwiększenie odstępów między wierszami */
-  font-size: 1.2em; /* Zwiększenie rozmiaru czcionki */
+  line-height: 1.2; /* Zwiększenie odstępów między wierszami */
+  font-size: 1.1em; /* Zwiększenie rozmiaru czcionki */
   max-width: 800px; /* Maksymalna szerokość sekcji, aby ograniczyć długość wierszy */
   margin: 0 auto; /* Wyrównanie do środka */
 }
@@ -113,7 +111,7 @@
   border-collapse: collapse;
   margin: 20px auto;
   background-color: #ffffff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #pkpir-table th, #ryczalt-table th, #kadrowo-placowe-table th,
 #pkpir-table td, #ryczalt-table td, #kadrowo-placowe-table td {
