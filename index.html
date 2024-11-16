@@ -12,7 +12,7 @@
 <body>
 <header>
   <nav class="navbar">
-    <div class="logo">
+    <div onclick="scrollToTop()" style="cursor: pointer;" class="logo">
       <img src="img/logo.png" alt="Logo"/>
     </div>
     <div class="menu-toggle" id="mobile-menu">
@@ -21,11 +21,11 @@
       <span class="bar"></span>
     </div>
     <ul class="nav-links">
-      <li><a href="#main-section">Start</a></li>
       <li><a href="#welcome">Witaj</a></li>
       <li><a href="#about_company">O nas</a></li>
       <li><a href="#team">Zespół</a></li>
       <li><a href="#offer">Oferta</a></li>
+      <li><a href="#pricing">Cennik</a></li>
     </ul>
   </nav>
 </header>
@@ -100,7 +100,8 @@
       przy pełnym zrozumieniu specyfiki ich branży
     </p>
     <br>
-    <div class="team-container" style="display: flex; justify-content: space-evenly; flex-wrap: wrap; gap: 20px; font-size: 12px; width: 80%; margin: auto;">
+    <div class="team-container"
+         style="display: flex; justify-content: space-evenly; flex-wrap: wrap; gap: 20px; font-size: 12px; width: 80%; margin: auto;">
       <div class="team-member" style="flex: 1; min-width: 150px;">
         <h3>Joanna Kętrzyńska</h3>
         <p>Właściciel</p>
@@ -135,7 +136,8 @@
       <div style="margin-left: auto; margin-right: auto; text-align: left;">
         <ul>
           <strong>Księgowe:</strong>
-          <li style="margin-top: 10px;">Księga przychodów i rozchodów, ewidencja przychodów, środków trwałych, wartości niematerialnych i wyposażenia
+          <li style="margin-top: 10px;">Księga przychodów i rozchodów, ewidencja przychodów, środków trwałych, wartości
+            niematerialnych i wyposażenia
           </li>
           <li>Obliczanie zaliczek na podatek dochodowy</li>
           <li>Sporządzanie zeznań rocznych i innych obowiązkowych sprawozdań</li>
@@ -160,16 +162,106 @@
     </div>
   </section>
 
+  <section id="pricing" class="content-section pricing-section">
+    <p>
+      <strong>Cennik</strong>
+      Poniższe ceny są cenami szacunkowymi.<br>
+      Prezentowany Cennik nie zawiera usług dodatkowych i indywidualnych wynikających z zakresu świadczonych usług. <br>
+      Miesięczne wynagrodzenie za usługi księgowe oraz kadrowo-płacowe są ustalane przy podpisywaniu umowy. <br>
+      Prezentowana oferta cenowa ma charakter informacyjny, nie stanowi oferty handlowej w rozumieniu Art.66 §1 Kodeksu
+      Cywilnego.
+      Firma zastrzega sobie możliwość indywidualnych negocjacji cen.
+      Podane ceny są cenami netto i dolicza się do nich 23% podatku VAT.
+    </p>
 
+    <div style="margin-left: auto; margin-right: auto;">
+      <div class="section-title">Podatkowa Księga Przychodów i Rozchodów</div>
+      <table id="pkpir-table">
+        <thead>
+        <tr>
+          <th>Opis</th>
+          <th>Podatnik zwolniony z VAT</th>
+          <th>Czynny podatnik VAT</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>W zależności od ilości dokumentów</td>
+          <td>od 250,00 zł</td>
+          <td>od 300,00 zł</td>
+        </tr>
+        </tbody>
+      </table>
 
+      <div class="section-title">Ryczałt od Przychodów Ewidencjonowanych</div>
+      <table id="ryczalt-table">
+        <thead>
+        <tr>
+          <th>Opis</th>
+          <th>Podatnik zwolniony z VAT</th>
+          <th>Czynny podatnik VAT</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>W zależności od ilości dokumentów</td>
+          <td>od 220,00 zł</td>
+          <td>od 250,00 zł</td>
+        </tr>
+        </tbody>
+      </table>
+
+      <div class="section-title">Usługi Kadrowo - Płacowe</div>
+      <table id="kadrowo-placowe-table">
+        <thead>
+        <tr>
+          <th>Lista usług</th>
+          <th>Stawka za pracownika</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Obsługa kadrowo płacowa + ZUS UoP</td>
+          <td>70,00 zł / os</td>
+        </tr>
+        <tr>
+          <td>Obsługa płacowa + ZUS UZ</td>
+          <td>50,00 zł / os</td>
+        </tr>
+        <tr>
+          <td>Obsługa powyżej 5 pracowników</td>
+          <td>zryczałtowana opłata ustalona indywidualnie</td>
+        </tr>
+        <tr>
+          <td>Obsługa PFRON</td>
+          <td>40,00 zł / os</td>
+        </tr>
+        <tr>
+          <td>Obsługa PPK</td>
+          <td>40,00 zł / os</td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
 </main>
-<footer>
-  <p>© 2024 Strona Wizytówkowa</p>
+<footer class="footer">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d536.5632895952543!2d18.63773126461552!3d54.35254987916964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7329ffbaaec1%3A0xdd77d8f2bedf6c24!2sBiuro%20Ksi%C4%99gowe%20Joanna%20K%C4%99trzy%C5%84ska!5e0!3m2!1spl!2spl!4v1731778768312!5m2!1spl!2spl"
+    width="80%" height="30%" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <p>© 2024 Biuro Księgowe Joanna Kętrzyńska. Wszelkie prawa zastrzeżone.</p>
 </footer>
 <script src="js/scripts.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 <script>
   AOS.init();
+
+  function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 </script>
 </body>
 </html>
