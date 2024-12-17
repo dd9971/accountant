@@ -53,7 +53,7 @@ header {
 }
 
 .logo img:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Efekt świetlny wokół logo */
+  box-shadow: 0 0 15px #f0c330; /* Efekt świetlny wokół logo */
 }
 
 /* Stylizacja dla urządzeń mobilnych */
